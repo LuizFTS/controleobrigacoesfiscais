@@ -1,0 +1,61 @@
+.filterTitle {
+  margin-left: 20px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+
+.tabela {
+  text-align: left;
+  background-color: rgb(42, 47, 114);
+  width: 100%;
+  margin-top: 10px;
+  color: white;
+
+  border-radius: 5px;
+}
+
+.tabela-table {
+  font-size: 12px;
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+td {
+  color: black;
+  background-color: rgb(217, 219, 255);
+}
+
+td, th {
+  border: 1px solid rgba(245, 245, 245, 0.726);
+  text-align: left;
+  padding: 8px;
+}
+
+
+td:hover {
+  background-color: rgb(210, 210, 255);
+}
+
+
+.limpar-filtro {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: rgb(52, 57, 158);
+  color: white;
+  float: right;
+}
+
+.limpar-filtro:hover {
+  background-color: rgb(77, 84, 180);
+  transform: translateY(-1px);
+}

@@ -1,0 +1,28 @@
+
+.card {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 16px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+.card:hover {
+  background-color: rgb(219, 219, 219);
+  transform: translateY(-1px);
+}
+
+.card__value {
+  font-size: 35px;
+  color: red;
+}
+
+.card__title {
+  font-size: 18px;
+}
+
+
