@@ -20,13 +20,21 @@ const App = () => {
   
   data.forEach((e) => {
     if(e.status === "Vencido"){
-      return vencidos.push(e.status), vencidosTotal.push(e.status); 
+      return vencidos.push(e.status); 
     } else if(e.status === "A vencer"){
       return aVencer.push(e.status);
     } else if(e.status === "Vence Hoje"){
-      return venceHoje.push(e.status), vencidosTotal.push(e.status);
+      return venceHoje.push(e.status);
     } else if(e.status === "Entregue"){
       return entregue.push(e.status)
+    };
+  });
+
+  data.forEach((e) => {
+    if(e.status === "Vencido"){
+      return vencidosTotal.push(e.status); 
+    } else if(e.status === "Vence Hoje"){
+      return vencidosTotal.push(e.status);
     };
   });
 
